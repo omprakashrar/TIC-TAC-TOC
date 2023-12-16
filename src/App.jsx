@@ -1,7 +1,6 @@
 
 import './App.css'
-import Card from './Components/Card/Card'
-import Grid from './Components/Grid/Grid'
+import Grid from './Components/Grid/Grid.jsx'
 
 function App() {
  

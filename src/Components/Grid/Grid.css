@@ -5,4 +5,34 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
+} 
+.turn-highlight{
+    color: white;
+} */
+/* Default styles */
+/* .grid-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+  }
+  
+  /* Media query for screens smaller than 768px */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 100px);
+    }
+  }
+  
+  /* Media query for screens smaller than 480px */
+  @media (max-width: 480px) {
+    .grid {
+      grid-template-columns: 100px;
+    }
+  }
+  
